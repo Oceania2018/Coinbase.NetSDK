@@ -17,7 +17,7 @@ using Coinbase.Wallet;
 
 public static void Main(string[] args)
 {
-	var client = new Client("apiKey", "apiSecret");
+    var client = new Client("apiKey", "apiSecret");
     var account = client.GetPrimaryAccount();
 
     var transaction = client.SendMoney(account.Id, new TransactionSendModel {

@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Coinbase.Wallet
+namespace Coinbase.Merchant
 {
     public static class OrderExtension
     {

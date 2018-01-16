@@ -16,9 +16,4 @@
     <ProjectReference Include="..\Coinbase.NetSDK\Coinbase.NetSDK.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Merchant\" />
-    <Folder Include="Currency\" />
-  </ItemGroup>
-
 </Project>

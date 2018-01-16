@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Coinbase.Wallet
+namespace Coinbase.Currecny
 {
     public static class CurrencyExtension
     {

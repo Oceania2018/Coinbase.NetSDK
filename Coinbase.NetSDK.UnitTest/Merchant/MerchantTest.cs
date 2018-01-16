@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Coinbase.NetSDK.UnitTest.Wallet
+namespace Coinbase.NetSDK.UnitTest.Merchant
 {
     [TestClass]
     public class MerchantTest

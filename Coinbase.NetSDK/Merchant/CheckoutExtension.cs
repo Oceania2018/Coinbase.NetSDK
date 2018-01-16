@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Coinbase.Wallet
+namespace Coinbase.Merchant
 {
     public static class CheckoutExtension
     {

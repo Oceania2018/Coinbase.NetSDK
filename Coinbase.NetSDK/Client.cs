@@ -9,7 +9,7 @@ using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace Coinbase.Wallet
+namespace Coinbase
 {
     /// <summary>
     /// Client Implementation of Coinbase API

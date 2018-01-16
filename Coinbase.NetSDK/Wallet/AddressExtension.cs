@@ -16,14 +16,14 @@ namespace Coinbase.Wallet
         /// <param name="client"></param>
         /// <param name="accountId"></param>
         /// <returns></returns>
-        public static GetResponseModel<AddressModel> GetAddresses(this Client client, string accountId)
+        public static GetResponseModel<CurrencyAddressModel> GetAddresses(this Client client, string accountId)
         {
             var request = new RestRequest("/accounts/{account_id}/addresses");
             request.AddUrlSegment("account_id", accountId);
 
             var rest = client.GetRestClient(request);
 
-            var response = rest.Execute<GetResponseModel<AddressModel>>(request);
+            var response = rest.Execute<GetResponseModel<CurrencyAddressModel>>(request);
 
             return response.Data;
         }
@@ -36,7 +36,7 @@ namespace Coinbase.Wallet
         /// <param name="accountId"></param>
         /// <param name="addressId"></param>
         /// <returns></returns>
-        public static AddressModel GetAddress(this Client client, String accountId, String addressId)
+        public static CurrencyAddressModel GetAddress(this Client client, String accountId, String addressId)
         {
             var request = new RestRequest("/accounts/{account_id}/addresses/{address_id}");
 
@@ -45,7 +45,7 @@ namespace Coinbase.Wallet
 
             var rest = client.GetRestClient(request);
 
-            var response = rest.Execute<GetResponseModel<AddressModel>>(request);
+            var response = rest.Execute<GetResponseModel<CurrencyAddressModel>>(request);
 
             return response.Data.Data.First();
         }
@@ -57,7 +57,7 @@ namespace Coinbase.Wallet
         /// <param name="client"></param>
         /// <param name="accountId"></param>
         /// <returns></returns>
-        public static AddressModel CreateAddress(this Client client, String accountId)
+        public static CurrencyAddressModel CreateAddress(this Client client, String accountId)
         {
             var request = new RestRequest("/accounts/{account_id}/addresses");
             request.Method = Method.POST;
@@ -65,7 +65,7 @@ namespace Coinbase.Wallet
 
             var rest = client.GetRestClient(request);
 
-            var response = rest.Execute<GetResponseModel<AddressModel>>(request);
+            var response = rest.Execute<GetResponseModel<CurrencyAddressModel>>(request);
 
             return response.Data.Data.First();
         }

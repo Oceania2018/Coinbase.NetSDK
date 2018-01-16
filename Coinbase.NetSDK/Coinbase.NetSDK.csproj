@@ -4,6 +4,17 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
     <AssemblyName>Coinbase.NetSDK</AssemblyName>
     <RootNamespace>Coinbase</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageTags>Coinbase SDK Bitcoin Cryptocurrency</PackageTags>
+    <Description>.NET SDK for Full APIs of Coinbase including Wallet, Merchant and Data Endpoints.</Description>
+    <PackageProjectUrl>https://github.com/Haiping-Chen/Coinbase.NetSDK</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/Haiping-Chen/Coinbase.NetSDK/blob/master/LICENSE</PackageLicenseUrl>
+    <Copyright>MIT</Copyright>
+    <RepositoryUrl>https://github.com/Haiping-Chen/Coinbase.NetSDK</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <Authors>Haiping Chen</Authors>
+    <Company>Personal</Company>
+    <Version>1.1.0</Version>
   </PropertyGroup>
 
   <ItemGroup>

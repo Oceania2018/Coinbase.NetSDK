@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Coinbase.Models
 {
-    public abstract class IdResourceModel
+    public class IdResourceModel
     {
         /// <summary>
         /// Resource ID
@@ -18,7 +18,7 @@ namespace Coinbase.Models
         public String ResourcePath { get; set; }
     }
 
-    public abstract class ResourceModel : IdResourceModel
+    public class ResourceModel : IdResourceModel
     {
         [DeserializeAs(Name = "created_at")]
         public DateTime CreatedAt { get; set; }

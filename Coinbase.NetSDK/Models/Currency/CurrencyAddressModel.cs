@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Coinbase.Models
 {
-    public class AddressModel : ResourceModel
+    public class CurrencyAddressModel : ResourceModel
     {
         public String Name { get; set; }
 

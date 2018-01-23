@@ -6,10 +6,11 @@ namespace Coinbase.Models
 {
     public enum CurrencyType
     {
-        BTC,
-        BCH,
-        USD,
-        LTC,
-        ETH
+        USD = 1,
+        BTC = 2,
+        BCH = 3,
+        ETH = 4,
+        LTC = 5,
+        VC = 6
     }
 }

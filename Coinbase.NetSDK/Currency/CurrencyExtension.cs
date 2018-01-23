@@ -9,7 +9,7 @@ namespace Coinbase.Currecny
 {
     public static class CurrencyExtension
     {
-        public static BalanceModel GetBuyPrice(this Client client, String currencyPair)
+        public static PricePairModel GetBuyPrice(this Client client, String currencyPair)
         {
             var request = new RestRequest("/prices/{currency_pair}/buy");
 
@@ -17,7 +17,7 @@ namespace Coinbase.Currecny
 
             var rest = client.GetRestClient(request);
 
-            var response = rest.Execute<GetResponseModel<BalanceModel>>(request);
+            var response = rest.Execute<GetResponseModel<PricePairModel>>(request);
 
             return response.Data.Data.First();
         }

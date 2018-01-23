@@ -14,5 +14,7 @@ namespace Coinbase.Models
         public String Status { get; set; }
 
         public String Name { get; set; }
+
+        public String Hash { get; set; }
     }
 }

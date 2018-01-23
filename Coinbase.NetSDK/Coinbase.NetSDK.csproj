@@ -14,7 +14,8 @@
     <RepositoryType>Git</RepositoryType>
     <Authors>Haiping Chen</Authors>
     <Company>Personal</Company>
-    <Version>1.1.0</Version>
+    <Version>1.2.0</Version>
+    <PackageReleaseNotes>Add notification API.</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>

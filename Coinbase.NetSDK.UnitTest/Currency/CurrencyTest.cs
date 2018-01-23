@@ -1,4 +1,5 @@
-﻿using Coinbase.Wallet;
+﻿using Coinbase.Currecny;
+using Coinbase.Wallet;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;

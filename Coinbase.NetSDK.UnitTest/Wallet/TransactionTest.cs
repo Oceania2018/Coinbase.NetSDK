@@ -36,7 +36,7 @@ namespace Coinbase.NetSDK.UnitTest.Wallet
             var transaction = client.SendMoney(account.Id, new TransactionSendModel {
                 To = "1rundZJCMJhUiWQNFS5uT3BvisBuLxkAp",
                 Amount = 0.0001M,
-                Currency = CurrencyType.BTC
+                Currency = "BTC"
             });
         }
 
@@ -49,7 +49,7 @@ namespace Coinbase.NetSDK.UnitTest.Wallet
             {
                 To = "xxxxxxxx@gmail.com",
                 Amount = 0.0001M,
-                Currency = CurrencyType.BTC
+                Currency = "BTC"
             });
         }
 

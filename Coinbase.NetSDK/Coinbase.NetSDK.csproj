@@ -14,12 +14,12 @@
     <RepositoryType>Git</RepositoryType>
     <Authors>Haiping Chen</Authors>
     <Company>Personal</Company>
-    <Version>1.2.0</Version>
+    <Version>1.2.1</Version>
     <PackageReleaseNotes>Add notification API.</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.1" />
     <PackageReference Include="RestSharp" Version="106.2.1" />
   </ItemGroup>
 

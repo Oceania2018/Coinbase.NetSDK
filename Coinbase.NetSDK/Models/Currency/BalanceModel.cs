@@ -8,6 +8,9 @@ namespace Coinbase.Models
     {
         public Decimal Amount { get; set; }
 
-        public CurrencyType Currency { get; set; }
+        /// <summary>
+        /// Currency Symbol
+        /// </summary>
+        public String Currency { get; set; }
     }
 }

@@ -24,7 +24,7 @@ namespace Coinbase.Models.Transaction
         public Decimal Amount { get; set; }
 
         [Required]
-        public CurrencyType Currency { get; set; }
+        public String Currency { get; set; }
 
         /// <summary>
         /// Notes to be included in the email that the recipient receives

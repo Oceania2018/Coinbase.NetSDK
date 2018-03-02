@@ -37,7 +37,7 @@ namespace Coinbase.NetSDK.UnitTest.Wallet
             client.Buy(account.Id, new BuyingModel
             {
                 Amount = 0.005M,
-                Currency = CurrencyType.BTC,
+                Currency = "BTC",
                 PaymentMethod = payment.Id,
                 Commit = false
             });
@@ -68,7 +68,7 @@ namespace Coinbase.NetSDK.UnitTest.Wallet
             var sell = client.Sell(account.Id, new SellingModel
             {
                 Amount = 0.005M,
-                Currency = CurrencyType.BTC,
+                Currency = "BTC",
                 PaymentMethod = payment.Id,
                 Commit = false
             });

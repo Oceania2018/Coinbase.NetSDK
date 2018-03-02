@@ -24,7 +24,7 @@ namespace Coinbase.Models
         /// <summary>
         /// Payment method’s native currency
         /// </summary>
-        public CurrencyType Currency { get; set; }
+        public String Currency { get; set; }
 
         /// <summary>
         /// Is primary buying method?

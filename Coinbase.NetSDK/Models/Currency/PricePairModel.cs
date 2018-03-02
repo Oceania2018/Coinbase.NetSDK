@@ -8,6 +8,6 @@ namespace Coinbase.Models
     {
         public String Pair { get; set; }
 
-        public CurrencyType Base { get; set; }
+        public String Base { get; set; }
     }
 }
